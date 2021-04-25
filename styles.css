@@ -1,0 +1,485 @@
+*{
+    box-sizing: border-box;
+    margin :0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'BOG';
+    src: url('https://webstatic.bog.ge/fonts/BOG/BOG-Black.eot');
+    src: url('https://webstatic.bog.ge/fonts/BOG/BOG-Black.eot?#iefix') format('embedded-opentype'),
+    url('https://webstatic.bog.ge/fonts/BOG/BOG-Black.woff2') format('woff2'),
+    url('https://webstatic.bog.ge/fonts/BOG/BOG-Black.woff') format('woff'),
+    url('https://webstatic.bog.ge/fonts/BOG/BOG-Black.ttf') format('truetype'),
+    url('https://webstatic.bog.ge/fonts/BOG/BOG-Black.svg#BOG-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+.header{
+    background-color: #f4f4f4;
+}
+.container{
+    width:80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.iBank-logo{
+    margin-left:0;
+
+}
+.small-icon{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 10px;
+    font-family: MarkGEO; 
+    border-radius: 18px;
+    height: 18px;
+    color: #000000AD;
+    background-color: #0000000A;
+    padding: 0 8px;
+}
+.iBank-introdution{
+    width: 240px;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    padding: 14px 0;
+}
+.customer{
+    display: flex;
+    align-items: center;
+    width:220px;
+    justify-content: space-between;
+}
+.customer-introdution{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 280px;
+    margin-right: 0;
+    
+}
+.customer-icon{
+    padding: 12px;
+
+}
+.moon-icon{
+    width: 16px;
+    height: 16px;
+    
+
+
+}
+.women-icon{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border:none;
+    border-radius: 50%;
+    padding: 8px;
+    
+
+    
+}
+
+.name{
+    font-size: 16px;
+    font-family: MarkGEO , sans-serif;
+}
+.options-icon{
+    margin-left: 8px;
+}
+
+.down-arrow-icon{
+    width:15px;
+    height:15px;
+    margin-top:4px;
+    
+    
+}
+
+.iBank-nav{
+    
+    display: flex;
+    align-items: center;
+  
+
+
+}
+.menu{
+    font-size: 14px;
+    color: #FFFFFFEB;
+    
+}
+
+nav{
+    background-color:#FE5F0A;
+    height:40px;
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+
+.customer-info{
+    width:48%;
+    border-radius: 10%;
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns: 1fr;;
+    
+    
+}
+.section{
+   
+    box-sizing: border-box;
+    border-radius:2% ;
+    box-shadow: 0 2px 2px 2px rgba(153, 153, 153, 0.774);
+   
+}
+.grid-table{
+    display:grid;
+    grid-gap:10px;
+    grid-template-rows: 30px 30px 30px;
+    grid-template-columns: 7fr 4fr 5fr;
+    align-items: center;
+
+}
+
+.amount{
+    display: flex;
+    
+}
+.money{
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #000000EB;
+    font-weight: 500;
+    font-family: "BOG Headline";
+    text-transform: uppercase;
+    padding: 24px 24px 12px 24px;
+    
+    
+   
+}
+.amount{
+    margin: 0px 0px 6px 24px;
+    font-size: 18px;
+}
+.number{
+    font-size: 18px;
+    font-family: BOG;
+    color:#000000CC;
+    font-weight: bold;
+}
+.GEL-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.GEL{
+    width: 15px;
+    height: 15px;
+    margin-left:4px;
+    font: 18px;
+}
+.meaning{
+    color:#000000AD;
+
+    font-size: 12px;
+    
+}
+.last-meaning{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+.last{
+    color:#000000AD;
+    text-align: left;
+    font-size: 16px;
+  
+    
+}
+.universal{
+    display: flex;
+    margin-bottom: 10px;
+    
+    
+}
+.credit-card{
+    width:16px;
+    height: 16px;
+    margin-right: 10px;
+
+}
+.card-name{
+    font-size:12px;
+    font-family: BOG Headline;
+    color:#000000AD;
+    font-weight: 500;
+}
+.curse-icons{
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.curse{
+    width:10px;
+    height: 10px;
+    margin-right:8px;
+    color:#000000EB;
+    
+    
+}
+.concret-amount{
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.money-amount{
+    font-size:14px;
+    color:#000000EB;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+
+.gathered-programs{
+    padding: 24px 24px 8px 24px;
+    font-size:14px;
+    font-family: "BOG Headline";
+    color:#000000EB;
+
+}
+.programs{
+    display: flex;
+    align-items: center;
+    padding: 0 24px 24px 24px;
+}
+.plus-icon{
+    width: 48px;
+    height: 48px;
+    color:#000000;
+    font-size: 16px;
+    font-family: MarkGeo  sans-serif;
+    background-color: #0000000A;
+    padding: 10px;
+    border-radius: 100%;
+}
+
+.plus-points{
+    margin-left:12px;
+    font-size: 16px;
+    font-family: MarkGEO sans-serif;
+    color:#000000;
+}
+.plus{
+    color: #000000AD;
+    font-size: 12px;
+    font-family: MarkGEO sans-serif;
+}
+.plus-amount{
+    font-size: 14px;
+    font-weight: 600;
+    color:#000000EB;
+    font-family: "BOG";
+}
+
+
+.currency-data-course{
+    color: #000000;
+    font-size: 16px;
+    font-family: MarkGEO , sans-serif;
+    padding: 24px 24px 12px 24px ;
+
+
+}
+.currency-course{
+    color:#000000EB;
+    font-size: 14px;
+    font-family: "BOG Headline";
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.currency-data{
+    display: grid;
+    grid-template-columns: 4fr 6fr 3fr 3fr;
+    grid-template-rows: 48px 48px 64px 64px 64px;
+
+}
+
+.currency-data-names{
+    padding: 0 24px;
+    color:#000000;
+    font-size: 16px;
+    font-family: MarkGEO sans-serif;
+    display: flex;
+    align-items: center;
+    
+
+}
+.currency-name{
+    font-size: 12px;
+    color: #000000AD;
+    font-family: "BOG Headline";
+    text-transform: uppercase;
+    font-weight: 500;
+
+}
+.int-Bank{
+    justify-content: flex-end;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    padding: 0 24px;
+    color:#000000;
+    font-size: 16px;
+    font-family: MarkGEO sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.currency-data-options{
+    color:#000000;
+    font-size: 16px;
+    font-family: MarkGEO, sans-serif;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.currency-option{
+    color:#00000052;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: BOG;
+    
+}
+
+.currency-data-icons{
+   color:#000000;
+   font-size: 16px;
+   font-family: MarkGEO, sans-serif;
+   padding: 0 24px;
+   display: flex;
+   align-items: center;
+   
+}
+.data-icons{
+    width:48px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00000014;
+    border-radius: 3px;
+
+}
+.currency-icon{
+    width:10px;
+}
+
+.currency-data-amount{
+    color:#000000;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+}
+.Camount{
+    color:#000000EB;
+    font-size: 14px;
+    font-family: BOG;
+    font-weight: 600;
+}
+.Zamount{
+    color:#3C506C;
+    font-size: 12px;
+    font-family: BOG;
+    padding-left: 10px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.currency-buy-sale{
+    color: #000000;
+    font-size: 16px;
+    padding:0 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.currency-buy-amount{
+    color:#000000EB;
+    font-size: 14px;
+    font-family: BOG;
+    font-weight: 600;
+}
+.currency-sale-amount{
+    color:#000000EB;
+    font-size: 14px;
+    font-family: BOG;
+    font-weight: 600;
+    margin-right: 0;
+    
+}
+.pansion-fond{
+    display: flex;
+    justify-content: space-between;
+    padding:24px;
+    
+}
+    
+
+
+.fond{
+    color:#000000;
+    background-color: #fcfcfc;
+    
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.pansion-icon{
+    width: 56px;
+    height: 56px;
+    margin-bottom: 0;
+    align-self: flex-end;
+    
+    
+}
+.fond-name{
+    font-size: 14px;
+    color: #000000EB;
+    font-family: "BOG Headdline";
+    margin-bottom: 4px;
+}
+.fond-amount{
+    display: flex;
+    
+
+}
+.fond-money{
+    color:#000000EB;
+    font-size: 24px;
+    font-family: MarkGEO sans-serif;
+
+}
+.fond-gelicon{
+    width: 20px;
+    height: 30px;
+    margin:0 0 0 4px;
+    
+}
