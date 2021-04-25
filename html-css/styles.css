@@ -12,6 +12,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    
 }
 .iBank-logo{
     margin-left:0;
@@ -107,9 +108,111 @@ nav{
     background-color:#FE5F0A;
     height:40px;
     display: flex;
+    margin-bottom: 20px;
+    
 }
 
 .customer-info{
-    width:50%;
-    background-color: red;
+    width:48%;
+    border-radius: 10%;
+    
+    
+}
+.available-money-amount{
+   
+    box-sizing: border-box;
+    border-radius:2% ;
+    box-shadow: 0 2px 2px 2px rgba(153, 153, 153, 0.774);
+    padding:24px 24px 0 24px;
+}
+.grid-table{
+    display:grid;
+    grid-gap:10px;
+    grid-template-rows: 30px 30px 30px;
+    grid-template-columns: 7fr 4fr 5fr;
+    align-items: center;
+
+}
+
+.amount{
+    display: flex;
+    
+}
+.money{
+    font-size: 15px;
+    margin-bottom: 10px;
+    
+    
+   
+}
+.amount{
+    margin: 0px 0px 6px 0;
+    font-size: 18px;
+}
+.number{
+    font-size: 18px;
+}
+.GEL-icon{
+    display: flex;
+    align-items: center;
+}
+.GEL{
+    width: 15px;
+    height: 15px;
+    margin-left:4px;
+    font: 18px;
+}
+.meaning{
+    color:black;
+    font-size: 16px;
+    
+}
+.last-meaning{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+.last{
+    color:black;
+    text-align: left;
+    font-size: 16px;
+  
+    
+}
+.universal{
+    display: flex;
+    margin-bottom: 10px;
+    
+    
+}
+.credit-card{
+    width:16px;
+    height: 16px;
+    margin-right: 10px;
+
+}
+.card-name{
+    font-size:12px;
+}
+.curse-icons{
+    display: flex;
+    
+    align-items: center;
+}
+.curse{
+    width:10px;
+    height: 10px;
+    margin-right:8px;
+    
+    
+}
+.concret-amount{
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.money-amount{
+    font-size:12px;
 }
