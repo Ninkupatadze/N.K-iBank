@@ -22,10 +22,11 @@
     background-color: #f4f4f4;
 }
 .container{
-    width:80%;
+    width:90%;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     justify-content: space-between;
     
 }
@@ -139,8 +140,9 @@ nav{
 .section{
    
     box-sizing: border-box;
+    
     border-radius:2% ;
-    box-shadow: 0 2px 2px 2px rgba(153, 153, 153, 0.774);
+    box-shadow: 0 1.5px 1.5px 1.5px rgba(180, 180, 180, 0.774);
    
 }
 .grid-table{
@@ -151,6 +153,7 @@ nav{
     align-items: center;
 
 }
+
 
 .amount{
     display: flex;
@@ -189,6 +192,12 @@ nav{
     height: 15px;
     margin-left:4px;
     font: 18px;
+    margin-bottom: 10px;
+}
+.datas{
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
 }
 .meaning{
     color:#000000AD;
@@ -197,6 +206,7 @@ nav{
     
 }
 .last-meaning{
+    padding: 0 24px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -205,12 +215,14 @@ nav{
 .last{
     color:#000000AD;
     text-align: left;
-    font-size: 16px;
+    font-size: 12px;
   
     
 }
 .universal{
+    padding: 0 24px;
     display: flex;
+    align-items: center;
     margin-bottom: 10px;
     
     
@@ -231,6 +243,7 @@ nav{
     display: flex;
     margin-bottom: 10px;
     align-items: center;
+    padding: 0 24px;
 }
 .curse{
     width:10px;
@@ -244,6 +257,7 @@ nav{
     display:flex;
     align-items: center;
     justify-content: flex-end;
+    padding: 0 24px;
 }
 
 .money-amount{
@@ -251,6 +265,7 @@ nav{
     color:#000000EB;
     font-weight: 600;
     margin-bottom: 10px;
+    
 }
 
 
@@ -301,6 +316,8 @@ nav{
     font-size: 16px;
     font-family: MarkGEO , sans-serif;
     padding: 24px 24px 12px 24px ;
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+
 
 
 }
@@ -315,10 +332,12 @@ nav{
     display: grid;
     grid-template-columns: 4fr 6fr 3fr 3fr;
     grid-template-rows: 48px 48px 64px 64px 64px;
-
+    
 }
 
 .currency-data-names{
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+
     padding: 0 24px;
     color:#000000;
     font-size: 16px;
@@ -337,6 +356,8 @@ nav{
 
 }
 .int-Bank{
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+
     justify-content: flex-end;
     grid-column-start: 3;
     grid-column-end: 5;
@@ -350,6 +371,7 @@ nav{
 
 .currency-data-options{
     color:#000000;
+    border-bottom: 1px solid rgba(0,0,0,0.08);
     font-size: 16px;
     font-family: MarkGEO, sans-serif;
     padding: 0 24px;
@@ -372,6 +394,8 @@ nav{
    padding: 0 24px;
    display: flex;
    align-items: center;
+   border-bottom: 1px solid rgba(0,0,0,0.08);
+
    
 }
 .data-icons{
@@ -393,6 +417,8 @@ nav{
     padding: 0 24px;
     display: flex;
     align-items: center;
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+
 }
 .Camount{
     color:#000000EB;
@@ -416,6 +442,8 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+
     
 
 }
@@ -468,6 +496,7 @@ nav{
 }
 .fond-amount{
     display: flex;
+    align-items: center;
     
 
 }
@@ -479,7 +508,145 @@ nav{
 }
 .fond-gelicon{
     width: 20px;
-    height: 30px;
+    height: 20px;
     margin:0 0 0 4px;
     
+}
+
+.contacts-section{
+    color:#000000;
+    font-size: 16px;
+    padding: 24px 24px 0 24px;
+}
+.contacts{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "BOG Headline";
+    text-transform: uppercase;
+    color:#000000EB;
+}
+.contacts-list{
+    display: flex;
+    align-items: center;
+    color: #000000;
+    padding: 12px 24px 24px 24px;
+}
+.contacts-data{
+    font-size: 16px;
+    padding: 16px 0;
+    color:#000000;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center ;
+    
+}
+
+.contact-icon{
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+}
+.contactsname{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.contact-name{
+    
+    margin-top: 6px;
+    font-size: 14px;
+    color:#000000EB;
+    font-family:MarkGEO sans-serif;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.last-operations{
+    color: #000000;
+    padding: 24px 24px 12px 24px;
+
+}
+.last-operations-name{
+    color:#000000EB;
+    font-size: 14px;
+    font-family: "BOG Headline";
+    font-weight: 500;
+}
+.operations-list{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+}
+.operation-icon{
+    padding: 0 0 0 24px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+}
+.operation-movement{
+    width:32px;
+    height: 32px;
+    color:#000000;
+    background-color: #00000003;
+    margin:0 16px 0 0;
+}
+
+.operation-details{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+.operatin-date{
+    color:#000000AD;
+    font-size: 12px;
+    font-family: BOG;
+    font-weight: 500;
+    
+
+}
+.operation-place{
+    color:#000000EB;
+    font-size: 13px;
+    font-family: BOG;
+    font-weight: 500;
+    margin-top: 2px;
+}
+.operation-do{
+    color:#000000AD;
+    font-size: 13px;
+    font-family: BOG;
+    font-weight: 500;
+    margin-top: 2px;
+
+
+}
+.operation-cost{
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+    padding-right: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-operation{
+    display: flex;
+    align-items:center;
+}
+.operation-money-amount{
+    color:#000000EB;
+    font-size: 14px;
+    font-family: BOG;
+}
+.operation-cost-icon{
+    width:18px;
+    height: 18px;
+    margin-right: 4px;
+    color:#000000EB;
+    font-size: 14px;
+    font-family: BOG;
+}
+.operation-more-icon{
+    padding: 0 12px;
+    width: 16px;
+    height: 16px;
+    font-size: 12px;
 }
